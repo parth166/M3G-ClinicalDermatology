@@ -1,0 +1,281 @@
+[{
+    "encounter_id": "ENC00852",
+    "responses": [{
+        "content_en": "Based on the visual descriptors, I believe the patient is most likely suffering from Atopic Dermatitis, commonly known as Eczema. Treatment should include topical steroids and moisturizing care."
+    }]
+}, {
+    "encounter_id": "ENC00853",
+    "responses": [{
+        "content_en": "Based on the visual descriptions, it seems like the most probable condition is Chronic Eczema. I recommend applying topical steroids and moisturizers regularly for treatment."
+    }]
+}, {
+    "encounter_id": "ENC00854",
+    "responses": [{
+        "content_en": "Based on the visual description, the patient likely has Chronic Hand Eczema. Treatment should involve avoiding irritants, applying moisturizers, and using topical corticosteroids."
+    }]
+}, {
+    "encounter_id": "ENC00855",
+    "responses": [{
+        "content_en": "Based on the visual description, the most probable disease appears to be Vasculitis. Treatment may involve corticosteroids or other immunosuppressive drugs."
+    }]
+}, {
+    "encounter_id": "ENC00856",
+    "responses": [{
+        "content_en": "The most probable disease appears to be Atopic Dermatitis. For treatment, I recommend the use of topical steroids and emollients, as well as avoiding known triggers."
+    }]
+}, {
+    "encounter_id": "ENC00857",
+    "responses": [{
+        "content_en": "Based on the notes and images, I diagnose the patient with Idiopathic Guttate Hypomelanosis. Regular use of sunscreen and topical retinoids may help improve the appearance."
+    }]
+}, {
+    "encounter_id": "ENC00858",
+    "responses": [{
+        "content_en": "Based on the visual description, I believe the most probable disease is Ecthyma gangrenosum. Treatment will involve antibiotics and possibly surgical debridement."
+    }]
+}, {
+    "encounter_id": "ENC00859",
+    "responses": [{
+        "content_en": "Based on the given information and the visual description of the lesions, the most probable diagnosis is Eczema or Atopic Dermatitis. For treatment, I recommend topical steroids and antihistamines."
+    }]
+}, {
+    "encounter_id": "ENC00860",
+    "responses": [{
+        "content_en": "Based on the symptoms and image, I believe the most probable disease is Pompholyx (dyshidrotic eczema). Treatment includes topical creams and avoiding irritation triggers."
+    }]
+}, {
+    "encounter_id": "ENC00861",
+    "responses": [{
+        "content_en": "Based on my evaluation, the patient most likely has Acne Vulgaris. I recommend a treatment plan using a combination of topical retinoids and antibiotics."
+    }]
+}, {
+    "encounter_id": "ENC00862",
+    "responses": [{
+        "content_en": "Based on the provided image description, the most probable diagnosis is a Myxoid Cyst. The treatment plan will be a surgical excision or aspiration of the cyst.\n"
+    }]
+}, {
+    "encounter_id": "ENC00863",
+    "responses": [{
+        "content_en": "Based on the visual description, I diagnose the condition as Psoriasis. Treatment will involve topical steroids, phototherapy, and possibly systemic medications for severe cases."
+    }]
+}, {
+    "encounter_id": "ENC00864",
+    "responses": [{
+        "content_en": "Based on the visual description, the most likely diagnosis is Contact Dermatitis. I recommend topical corticosteroids and avoidance of the potential irritant for treatment."
+    }]
+}, {
+    "encounter_id": "ENC00865",
+    "responses": [{
+        "content_en": "Based on the described symptoms and images, I believe the most probable diagnosis is Psoriasis. I recommend topical treatments and phototherapy as potential treatment options."
+    }]
+}, {
+    "encounter_id": "ENC00866",
+    "responses": [{
+        "content_en": "Based on the observed symptoms, I believe the most probable disease is Chronic hand eczema. I recommend moisturizing regularly and using topical corticosteroids to manage symptoms."
+    }]
+}, {
+    "encounter_id": "ENC00867",
+    "responses": [{
+        "content_en": "The likely diagnosis is pyogenic granuloma. Treatment involves surgical removal or topical treatments to prevent further growth or complications."
+    }]
+}, {
+    "encounter_id": "ENC00868",
+    "responses": [{
+        "content_en": "Based on the visual descriptions, the most probable disease is Chronic venous insufficiency with associated dermatitis. Further tests are needed to confirm this diagnosis."
+    }]
+}, {
+    "encounter_id": "ENC00869",
+    "responses": [{
+        "content_en": "Based on the given description, it seems like a localized infection secondary to skin picking. For treatment, I recommend topical antibiotics and advising the patient to avoid skin picking."
+    }]
+}, {
+    "encounter_id": "ENC00870",
+    "responses": [{
+        "content_en": "Based on the provided images and descriptions, the most probable diagnosis is Papular Urticaria. Treatment will involve topical steroids and antihistamines to alleviate itching."
+    }]
+}, {
+    "encounter_id": "ENC00871",
+    "responses": [{
+        "content_en": "Based on the lesion's appearance, my diagnosis is Seborrheic Keratosis. We can manage this with cryosurgery or curettage, depending on the lesion's location and size."
+    }]
+}, {
+    "encounter_id": "ENC00872",
+    "responses": [{
+        "content_en": "Based on the evaluation, the most probable diagnosis is a Labial melanotic macule. The treatment often includes monitoring for changes, if any concerned, consider dermatological consultation."
+    }]
+}, {
+    "encounter_id": "ENC00873",
+    "responses": [{
+        "content_en": "Based on the visual inspection of the images, I believe the most probable condition is Onychomycosis. We should confirm this with further diagnostic tests like microscopy or culture."
+    }]
+}, {
+    "encounter_id": "ENC00874",
+    "responses": [{
+        "content_en": "Based on the visual descriptions, the most probable diagnosis is a bacterial infection. The treatment plan involves antibiotics, topical treatments, and maintaining good foot hygiene."
+    }]
+}, {
+    "encounter_id": "ENC00875",
+    "responses": [{
+        "content_en": "Based on my inspection, the most probable diagnosis is Contact Dermatitis. I recommend topical corticosteroids and avoidance of the identified irritant or allergen."
+    }]
+}, {
+    "encounter_id": "ENC00876",
+    "responses": [{
+        "content_en": "Based on the presented symptoms, I diagnose the condition as Hand Dermatitis. A treatment plan might include the use of topical steroids and avoidance of irritants."
+    }]
+}, {
+    "encounter_id": "ENC00877",
+    "responses": [{
+        "content_en": "The most probable diagnosis is Physical Urticaria. Treatment includes avoiding triggers and antihistamines for relief from symptoms."
+    }]
+}, {
+    "encounter_id": "ENC00878",
+    "responses": [{
+        "content_en": "Based on the visual description, I diagnose this as Hand Eczema. For treatment, I recommend prescription topical corticosteroids and regular use of moisturizers."
+    }]
+}, {
+    "encounter_id": "ENC00879",
+    "responses": [{
+        "content_en": "Based on the analysis of the images, I diagnose Dyshidrotic Eczema. For treatment, I recommend topical steroids and regular moisturizing. Stress management may also reduce flare-ups."
+    }]
+}, {
+    "encounter_id": "ENC00880",
+    "responses": [{
+        "content_en": "Based on the image and symptoms presented, the most probable diagnosis is Pityriasis Rosea. I recommend topical treatments and plenty of rest."
+    }]
+}, {
+    "encounter_id": "ENC00881",
+    "responses": [{
+        "content_en": "Based on the visual clues, I diagnose the condition as Impetigo. The treatment will involve topical antibiotics and proper hygiene to prevent its spread."
+    }]
+}, {
+    "encounter_id": "ENC00882",
+    "responses": [{
+        "content_en": "Based on the symptoms observed, I believe the patient is experiencing Alcohol-Induced Flushing. The treatment plan involves avoiding alcohol to prevent further symptom manifestation."
+    }]
+}, {
+    "encounter_id": "ENC00883",
+    "responses": [{
+        "content_en": "Based on my observations, the most probable diagnosis is Perioral Dermatitis. A suitable treatment could involve the use of topical or oral antibiotics."
+    }]
+}, {
+    "encounter_id": "ENC00884",
+    "responses": [{
+        "content_en": "Based on the visual description of the lesion, I diagnose it as a Mucocele. The treatment would involve surgical removal or laser therapy."
+    }]
+}, {
+    "encounter_id": "ENC00885",
+    "responses": [{
+        "content_en": "Based on the symptoms and image descriptions, the most probable condition seems to be Impetigo. The recommended treatment would include antibiotics and maintaining proper skin hygiene."
+    }]
+}, {
+    "encounter_id": "ENC00886",
+    "responses": [{
+        "content_en": "Based on the visual description, I suspect the condition to be Pityriasis rosea. Light therapy or oral/topical medication might assist in the treatment."
+    }]
+}, {
+    "encounter_id": "ENC00887",
+    "responses": [{
+        "content_en": "Based on the images and descriptions, the most probable diagnosis could be chronic eczema. A treatment plan could involve regular application of prescribed moisturizers and topical steroids."
+    }]
+}, {
+    "encounter_id": "ENC00888",
+    "responses": [{
+        "content_en": "Based on the visual inspection, I believe the most probable condition is Dermatitis. Treatment would involve avoiding irritants and using prescribed creams to control inflammation."
+    }]
+}, {
+    "encounter_id": "ENC00889",
+    "responses": [{
+        "content_en": "Based on the visual examination, I diagnose the patient with Traumatic onychodystrophy. The treatment plan involves minimizing trauma to the nails and providing symptomatic relief."
+    }]
+}, {
+    "encounter_id": "ENC00890",
+    "responses": [{
+        "content_en": "Based on the images and descriptions, the most probable disease could be a Drug Eruption. A thorough physical examination and laboratory tests are required for confirmatory diagnosis."
+    }]
+}, {
+    "encounter_id": "ENC00891",
+    "responses": [{
+        "content_en": "Based on the information provided, my diagnosis is Eczema (Atopic Dermatitis). The treatment plan would involve using topical steroids and moisturizers, and avoiding known triggers."
+    }]
+}, {
+    "encounter_id": "ENC00892",
+    "responses": [{
+        "content_en": "Based on the images, my diagnosis is Dyshidrotic Eczema. The treatment plan consists of prescribing topical steroids and encouraging good skin hygiene."
+    }]
+}, {
+    "encounter_id": "ENC00893",
+    "responses": [{
+        "content_en": "Based on the visual descriptions and symptoms, I believe the most probable disease is Eczema (atopic dermatitis). Treatment would include topical steroids and moisturizers."
+    }]
+}, {
+    "encounter_id": "ENC00894",
+    "responses": [{
+        "content_en": "Based on the visual inspection, I believe the most probable condition is Contact Dermatitis. We'll start a topical steroid treatment and monitor your progress closely."
+    }]
+}, {
+    "encounter_id": "ENC00895",
+    "responses": [{
+        "content_en": "Based on the visual inspection, the most probable condition seems to be Intertrigo. A topical antifungal or antibacterial treatment with good hygiene practices should manage this condition effectively."
+    }]
+}, {
+    "encounter_id": "ENC00896",
+    "responses": [{
+        "content_en": "Based on the detailed description and visual match, my diagnosis is Exfoliative keratolysis. Let's start a treatment plan targeting this diagnosis immediately."
+    }]
+}, {
+    "encounter_id": "ENC00897",
+    "responses": [{
+        "content_en": "Based on my evaluation, the most probable disease could be Seborrheic Keratosis. I recommend topical treatments or surgical excision as potential treatment options."
+    }]
+}, {
+    "encounter_id": "ENC00898",
+    "responses": [{
+        "content_en": "Based on the visual description, Poliosis seems the most probable condition due to the localized loss of pigment in the hair. Treatment often involves addressing the underlying cause."
+    }]
+}, {
+    "encounter_id": "ENC00899",
+    "responses": [{
+        "content_en": "Based on the images and my visual diagnosis, I believe the most probable disease is Urticaria (hives). I would recommend antihistamines for treatment."
+    }]
+}, {
+    "encounter_id": "ENC00900",
+    "responses": [{
+        "content_en": "Based on the visual inspection, the most probable condition appears to be Atopic dermatitis (eczema). I recommend applying a topical corticosteroid and implementing a daily moisturizing routine."
+    }]
+}, {
+    "encounter_id": "ENC00901",
+    "responses": [{
+        "content_en": "Based on the described visual characteristics, it seems to be a case of Large plaque parapsoriasis. Regular treatments should include topical steroids or light therapy."
+    }]
+}, {
+    "encounter_id": "ENC00902",
+    "responses": [{
+        "content_en": "Based on the visual description, the most likely diagnosis is Tinea pedis (Athlete's foot). My suggested treatment plan includes antifungal medication and maintaining good foot hygiene."
+    }]
+}, {
+    "encounter_id": "ENC00903",
+    "responses": [{
+        "content_en": "Based on the visual descriptions, I believe the most probable disease is Contact Dermatitis. I recommend over-the-counter creams and avoiding the irritant for treatment."
+    }]
+}, {
+    "encounter_id": "ENC00904",
+    "responses": [{
+        "content_en": "Based on the visual inspection, it appears to be a case of Infantile Seborrheic Dermatitis. We can start treatment with gentle cleansing and application of baby-safe topical creams."
+    }]
+}, {
+    "encounter_id": "ENC00905",
+    "responses": [{
+        "content_en": "Based on the symptoms, I'm leaning towards insect bites. Let's start with an over-the-counter antihistamine for itching and monitor the skin for any changes."
+    }]
+}, {
+    "encounter_id": "ENC00906",
+    "responses": [{
+        "content_en": "Based on my observations, the patient likely has Onychomycosis. I recommend antifungal medication and regular, professional nail trimming."
+    }]
+}, {
+    "encounter_id": "ENC00907",
+    "responses": [{
+        "content_en": "Based on the description, my diagnosis is Onychomycosis. The treatment plan involves anti-fungal medication and regular medical follow-ups to monitor improvement."
+    }]
+}]

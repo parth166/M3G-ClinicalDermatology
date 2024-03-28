@@ -1,0 +1,701 @@
+[{
+    "encounter_id": "ENC00908",
+    "responses": [{
+        "content_en": "Herpes zoster (shingles), Herpetic whitlow, Impetigo, Contact dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00909",
+    "responses": [{
+        "content_en": "Psoriasis, Eczema, Bacterial skin infection, Herpes zoster, Bullous pemphigoid, Cutaneous lupus erythematosus",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00910",
+    "responses": [{
+        "content_en": "",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00911",
+    "responses": [{
+        "content_en": "Tinea Capitis, Psoriasis, Seborrheic Dermatitis, Alopecia Areata, Atopic Dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00912",
+    "responses": [{
+        "content_en": "eczema herpeticum, contact dermatitis, bullous impetigo, autoimmune blistering disorder, dermatitis herpetiformis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00913",
+    "responses": [{
+        "content_en": "onychomycosis, psoriasis of the nails, lichen planus, other non-fungal nail infections",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00914",
+    "responses": [{
+        "content_en": "Psoriasis, Eczema, Dermatitis, Fungal infections, Tinea pedis, Onychomycosis, Contact dermatitis, Dyshidrotic eczema, Pompholyx, Palmoplantar Psoriasis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00915",
+    "responses": [{
+        "content_en": "Post-inflammatory hyperpigmentation, Melasma, Tinea Versicolor, Fixed Drug Eruption",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00916",
+    "responses": [{
+        "content_en": "seborrheic keratosis, dermatosis papulosa nigra, melanoma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00917",
+    "responses": [{
+        "content_en": "Plaque psoriasis, Eczema, Impetigo, Fungal infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00918",
+    "responses": [{
+        "content_en": "eczema, psoriasis, urticaria, viral exanthems",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00919",
+    "responses": [{
+        "content_en": "tinea corporis, granuloma annulare",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00920",
+    "responses": [{
+        "content_en": "psoriasis, eczema, keratoderma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00921",
+    "responses": [{
+        "content_en": "Folliculitis, Acne vulgaris, Viral exanthema, Allergic reaction, Contact dermatitis, Insect bites",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00922",
+    "responses": [{
+        "content_en": "Onychomycosis, Nail trauma, Psoriasis, Lichen planus, Melanoma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00923",
+    "responses": [{
+        "content_en": "psoriasis, dermatitis, contact dermatitis, eczema",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00924",
+    "responses": [{
+        "content_en": "Hand eczema, Psoriasis, Contact dermatitis, Fungal infections",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00925",
+    "responses": [{
+        "content_en": "molluscum contagiosum",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00926",
+    "responses": [{
+        "content_en": "Impetigo, Folliculitis or boils, Insect bites, Eczema or dermatitis, Cutaneous manifestations of a systemic infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00927",
+    "responses": [{
+        "content_en": "Stasis dermatitis, Eczema (nummular dermatitis), Psoriasis, Infected wound or ulcer, Contact dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00928",
+    "responses": [{
+        "content_en": "Dyshidrotic eczema, Hand, foot, and mouth disease, Psoriasis, Dermatitis herpetiformis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00929",
+    "responses": [{
+        "content_en": "Melanoma, Seborrheic keratosis, Pigmented basal cell carcinoma, Dermatofibroma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00930",
+    "responses": [{
+        "content_en": "Melasma, Freckles, Solar Lentigines, Post-inflammatory Hyperpigmentation, Cafe-au-lait Spots",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00931",
+    "responses": [{
+        "content_en": "livedo reticularis, vasculitis, cutaneous lupus erythematosus, circulatory disorders",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00932",
+    "responses": [{
+        "content_en": "onychomycosis, psoriasis, lichen planus, eczema, traumatic injury to the nail, nutritional deficiencies",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00933",
+    "responses": [{
+        "content_en": "Venous stasis dermatitis, Eczema, Psoriasis, Contact dermatitis, Tinea corporis (ringworm), Cellulitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00934",
+    "responses": [{
+        "content_en": "exanthematous diseases, allergic reactions, infectious diseases such as viral exanthems, exanthematous viral rash, urticaria (hives)",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00935",
+    "responses": [{
+        "content_en": "psoriasis, eczema, atopic dermatitis, dermatitis herpetiformis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00936",
+    "responses": [{
+        "content_en": "Vasculitis, Henoch-Schonlein purpura, Erythema multiforme, Dermatitis herpetiformis, Insect bites, Petechiae, Purpura, Allergic reaction, Drug eruption",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00937",
+    "responses": [{
+        "content_en": "Angular cheilitis, Herpes labialis, Impetigo, Exfoliative cheilitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00938",
+    "responses": [{
+        "content_en": "Psoriasis, Eczema (atopic dermatitis), Cutaneous T-cell lymphoma, Fungal infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00939",
+    "responses": [{
+        "content_en": "",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00940",
+    "responses": [{
+        "content_en": "Insect bites, Allergic reaction or dermatitis, Folliculitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00941",
+    "responses": [{
+        "content_en": "tinea corporis, nummular eczema, psoriasis, granuloma annulare, lupus erythematosus",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00942",
+    "responses": [{
+        "content_en": "Skin tag, Intradermal nevus, Seborrheic keratosis, Dermatofibroma, Pyogenic granuloma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00943",
+    "responses": [{
+        "content_en": "Venous stasis dermatitis, Venous ulcers, Diabetic ulcers, Pyoderma gangrenosum, Vasculitis, Chronic eczema, Cutaneous infections",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00944",
+    "responses": [{
+        "content_en": "Impetigo, Insect bites, Contact dermatitis, Chickenpox",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00945",
+    "responses": [{
+        "content_en": "syringomas, milia, xanthelasma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00946",
+    "responses": [{
+        "content_en": "Tinea corporis (ringworm), Granuloma annulare, Erythema migrans (early Lyme disease), Erythema annulare centrifugum, Psoriasis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00947",
+    "responses": [{
+        "content_en": "tinea corporis, ringworm, eczema, psoriasis, pityriasis rosea",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00948",
+    "responses": [{
+        "content_en": "hyperkeratotic eczema, psoriasis, palmoplantar keratoderma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00949",
+    "responses": [{
+        "content_en": "Impetigo, Eczema herpeticum, Bullous impetigo, Contact dermatitis, Bullous pemphigoid, Pemphigus vulgaris",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00950",
+    "responses": [{
+        "content_en": "tinea versicolor, vitiligo, post-inflammatory hypopigmentation, pityriasis alba",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00951",
+    "responses": [{
+        "content_en": "eczema, contact dermatitis, psoriasis, fungal infections like tinea manuum, id reaction (autoeczematization)",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00952",
+    "responses": [{
+        "content_en": "Psoriasis, Eczema, Fungal infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00953",
+    "responses": [{
+        "content_en": "Urticaria (hives), Viral exanthem, Drug eruption, Eczema, Contact dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00954",
+    "responses": [{
+        "content_en": "Folliculitis, Impetigo, Herpes Zoster",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00955",
+    "responses": [{
+        "content_en": "ecchymosis, vasculitis, purpura, Henoch-Sch\u00f6nlein purpura",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00956",
+    "responses": [{
+        "content_en": "psoriasis, eczema, fungal infections, ringworm, contact dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00957",
+    "responses": [{
+        "content_en": "Lentigines, Post-inflammatory hyperpigmentation, Tinea versicolor",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00958",
+    "responses": [{
+        "content_en": "Necrotizing fasciitis, Cutaneous anthrax, Severe cellulitis with abscess formation, Pyoderma gangrenosum",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00959",
+    "responses": [{
+        "content_en": "viral exanthems, allergic reactions, eczema, fungal infections, hand eczema (dyshidrotic eczema), contact dermatitis, palmoplantar psoriasis, tinea manuum",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00960",
+    "responses": [{
+        "content_en": "Psoriasis, Eczema, Contact dermatitis, Fungal infections, Drug reactions, Autoimmune disorders",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00961",
+    "responses": [{
+        "content_en": "nonmelanoma skin cancers, basal cell carcinoma, squamous cell carcinoma, actinic keratosis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00962",
+    "responses": [{
+        "content_en": "Impetigo, Dermatitis, Insect bites, Herpes simplex or zoster",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00963",
+    "responses": [{
+        "content_en": "Cellulitis, Soft tissue infection like an abscess, Localized allergic reaction or contact dermatitis, Possible insect bite or sting",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00964",
+    "responses": [{
+        "content_en": "dermatitis, allergic reaction, infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00965",
+    "responses": [{
+        "content_en": "Tinea Capitis, Alopecia Areata, Psoriasis, Seborrheic Dermatitis, Discoid Lupus Erythematosus (DLE)",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00966",
+    "responses": [{
+        "content_en": "Psoriasis, Eczema, Tinea corporis, Pityriasis rosea",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00967",
+    "responses": [{
+        "content_en": "Erythema multiforme, Vasculitis, Ecchymoses secondary to coagulopathy, Dermatologic manifestation of systemic disease, Fixed drug eruption, Cutaneous T-cell lymphomas (such as mycosis fungoides), Kaposi's sarcoma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00968",
+    "responses": [{
+        "content_en": "idiopathic guttate hypomelanosis, dermatographic urticaria",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00969",
+    "responses": [{
+        "content_en": "acne, folliculitis, rosacea, perioral dermatitis, dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00970",
+    "responses": [{
+        "content_en": "Hand Eczema, Psoriasis, Contact Dermatitis, Fungal Infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00971",
+    "responses": [{
+        "content_en": "hypertrophic scarring, keloid formation",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00972",
+    "responses": [{
+        "content_en": "onychomycosis, psoriasis, lichen planus, trauma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00973",
+    "responses": [{
+        "content_en": "viral exanthem, urticaria, allergic reaction, hypersensitivity reaction, insect bites, bullous disorder, contact dermatitis, bullous dermatoses, vesicular dermatoses",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00974",
+    "responses": [{
+        "content_en": "plaque psoriasis, eczema, dermatitis, atopic dermatitis, contact dermatitis, tinea corporis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00975",
+    "responses": [{
+        "content_en": "Psoriasis, Eczema, Dermatitis, Impetigo, Tinea Pedis, Tinea Manuum, Scabies",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00976",
+    "responses": [{
+        "content_en": "Folliculitis, Acneiform eruption, Viral exanthems, Pityrosporum (Malassezia) folliculitis, Drug eruption",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00977",
+    "responses": [{
+        "content_en": "Contact dermatitis, Eczema (atopic dermatitis), Psoriasis, Tinea (ringworm), Urticaria (hives)",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00978",
+    "responses": [{
+        "content_en": "Herpes zoster, Contact dermatitis, Insect bites",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00979",
+    "responses": [{
+        "content_en": "Impetigo, Dermatitis, Insect bites, Fungal skin infection, Viral skin infection, Contact dermatitis, Autoimmune blistering skin disorder, Pemphigus",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00980",
+    "responses": [{
+        "content_en": "Impetigo, Herpes Zoster, Dermatitis, Psoriasis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00981",
+    "responses": [{
+        "content_en": "Hand eczema/dermatitis, Psoriasis, Atopic dermatitis, Fungal infections, Nutritional deficiency-related dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00982",
+    "responses": [{
+        "content_en": "psoriasis, eczema, severe drug reaction, pemphigus vulgaris, bullous pemphigoid, bacterial infection, fungal infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00983",
+    "responses": [{
+        "content_en": "Impetigo, Folliculitis, Ecthyma, Herpetic Whitlow",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00984",
+    "responses": [{
+        "content_en": "dermatitis, psoriasis, eczema, plaque psoriasis, inflammatory skin conditions, infectious skin conditions",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00985",
+    "responses": [{
+        "content_en": "Allergic contact dermatitis, Urticaria (hives), Insect bites, Eczema, Psoriasis, Heat rash",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00986",
+    "responses": [{
+        "content_en": "Eczema, Psoriasis, Ringworm (tinea corporis), Pityriasis rosea",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00987",
+    "responses": [{
+        "content_en": "Seborrheic keratosis, Dysplastic nevus, Malignant melanoma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00988",
+    "responses": [{
+        "content_en": "Melasma, Post-inflammatory hyperpigmentation, Solar lentigines, Freckles",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00989",
+    "responses": [{
+        "content_en": "cyst, epidermoid cyst, sebaceous cyst, lipoma, dermatofibroma, pilar cyst",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00990",
+    "responses": [{
+        "content_en": "Cellulitis, Eczema, Psoriasis, Contact dermatitis, Tinea corporis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00991",
+    "responses": [{
+        "content_en": "Pityriasis alba, Vitiligo, Tinea versicolor, Post-inflammatory hypopigmentation",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00992",
+    "responses": [{
+        "content_en": "Psoriasis, Severe eczematous dermatitis, Cutaneous vasculitis, Pyoderma gangrenosum, Dermatophyte infection (tinea)",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00993",
+    "responses": [{
+        "content_en": "Psoriasis, Dermatophytosis (Tinea pedis and Tinea unguium), Eczema (Dyshidrotic eczema), Lichen Planus",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00994",
+    "responses": [{
+        "content_en": "benign nevus, dermatofibroma, skin adnexal tumor, sebaceous nevus, basal cell carcinoma, seborrheic keratosis, melanocytic lesion, dysplastic nevus, malignant melanoma",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00995",
+    "responses": [{
+        "content_en": "Herpes Zoster (Shingles), Contact Dermatitis, Impetigo, Folliculitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00996",
+    "responses": [{
+        "content_en": "allergic contact dermatitis, atopic dermatitis, eczema, psoriasis, localized skin infection, cellulitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00997",
+    "responses": [{
+        "content_en": "Psoriasis, Atopic dermatitis (eczema), Impetigo, Contact dermatitis, Fungal infections like tinea corporis, Autoimmune blistering diseases such as pemphigus or bullous pemphigoid",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00998",
+    "responses": [{
+        "content_en": "Contact dermatitis, Burn (thermal or chemical), Infection (bacterial, viral, or fungal), Eczema, Autoimmune conditions like psoriasis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC00999",
+    "responses": [{
+        "content_en": "Insect bites, Urticaria (hives), Contact dermatitis, Viral exanthem",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01000",
+    "responses": [{
+        "content_en": "Bullous impetigo, Contact dermatitis with secondary blistering, Autoimmune bullous disorders, such as bullous pemphigoid or pemphigus vulgaris, Insect bites with severe local reaction, Burns, either thermal or chemical, Herpes zoster or simplex virus infection",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01001",
+    "responses": [{
+        "content_en": "ringworm, tinea corporis, eczema, psoriasis, granuloma annulare, nummular dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01002",
+    "responses": [{
+        "content_en": "plaque psoriasis, nail psoriasis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01003",
+    "responses": [{
+        "content_en": "eczema, psoriasis, allergic contact dermatitis, irritant contact dermatitis",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01004",
+    "responses": [{
+        "content_en": "keratosis pilaris, folliculitis, dermatoses",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01005",
+    "responses": [{
+        "content_en": "Drug reaction, Viral exanthems, Allergic reaction, Psoriasis, Pityriasis rosea",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01006",
+    "responses": [{
+        "content_en": "Contact dermatitis (irritant or allergic), Folliculitis, Heat rash (miliaria), Insect bites, Eczema (atopic dermatitis), Tinea corporis (ringworm)",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}, {
+    "encounter_id": "ENC01007",
+    "responses": [{
+        "content_en": "insect bites, contact dermatitis, localized bacterial skin infection, folliculitis, localized hypersensitivity reaction",
+        "content_zh": "",
+        "content_es": ""
+    }]
+}]

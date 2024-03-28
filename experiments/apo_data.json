@@ -1,0 +1,655 @@
+{
+    "ground_truth": "\"Chronic Eczema",
+    "prediction": "Based on the visual descriptions, it seems like the most probable condition is Chronic Eczema. I recommend applying topical steroids and moisturizers regularly for treatment.",
+    "valid_responses": [{
+        "author_id": "U00013",
+        "content_zh": "\u6162\u6027\u6e7f\u75b9\u3002\u3002\u3002\u3002\u3002",
+        "content_en": "Chronic Eczema.",
+        "content_es": "Eccema cr\u00f3nico.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00297",
+        "content_zh": "\u5e94\u8be5\u662f\u53cc\u4fa7\u53d1\u75c5\uff0c\u8003\u8651\u6e7f\u75b9",
+        "content_en": "Should be happening on both sides.  Think of Eczema.",
+        "content_es": "Deber\u00eda ocurrir en ambos lados.  Piensa en eccema.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U03777",
+        "content_zh": "\u6162\u6027\u6e7f\u75b9\u3002\u3002\u3002\u3002\u3002",
+        "content_en": "Chronic Eczema.",
+        "content_es": "Eccema cr\u00f3nico.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"Eczema",
+    "prediction": "Based on the symptoms and image, I believe the most probable disease is Pompholyx (dyshidrotic eczema). Treatment includes topical creams and avoiding irritation triggers.",
+    "valid_responses": []
+}, {
+    "ground_truth": "\"myxoid cyst",
+    "prediction": "Based on the provided image description, the most probable diagnosis is a Myxoid Cyst. The treatment plan will be a surgical excision or aspiration of the cyst.\n",
+    "valid_responses": [{
+        "author_id": "U00326",
+        "content_zh": "\u56fe\u7247\u5f88\u6e05\u6670\uff0c\u5e94\u8be5\u662f\u7c98\u6db2\u6837\u56ca\u80bf",
+        "content_en": "The picture is very clear.  It is myxoid cyst.",
+        "content_es": "La imagen es muy clara.  Es un quiste mixoide.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00012",
+        "content_zh": "\u5370\u8c61\uff1a\u6307\u7c98\u6db2\u6837\u56ca\u80bf\n\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0\u62c7\u6307\u672b\u7aef\u5c3a\u4fa7\u80cc\u9762\u53ef\u89c1\u4e001cm x 1cm \u534a\u7403\u5f62\u56ca\u6027\u7ed3\u8282\uff0c\u6b63\u5e38\u80a4\u8272\uff0c\u8868\u9762\u5149\u6ed1\uff0c\u8d28\u8f6f\uff0c\u6709\u56ca\u6027\u611f\u3002\n\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0\uff08\u523a\u7834\u540e\u5e94\u8be5\u53ef\u89c1\u900f\u660e\u7684\u9ecf\u6db2\u6db2\u4f53\uff0c\u53ef\u53cd\u590d\u51fa\u73b0\u3002\uff09\u672c\u75c5\u591a\u7531\u635f\u4f24\u6216\u6162\u6027\u538b\u529b\u6709\u5173\u3002\n\u5904\u7406\uff1a\u6392\u9664\u7c98\u6db2\u540e\u6ce8\u5c04\u5c0f\u5242\u91cf\u66f2\u5b89\u5948\u5fb7\u4f46\u6709\u53ef\u80fd\u590d\u53d1\u3002\u624b\u672f\u5207\u9664\u662f\u6839\u9664\u7684\u6700\u597d\u529e\u6cd5\u3002",
+        "content_en": "Impression: myxoid cyst.\nOn the side, near the end of the thumb, there is a semi-spherical cyst 1 cm X 1 cm.  Color is normal, surface is smooth, shiny, soft and has the feeling of being a cyst.\n(After it is poked open, you should see sticky but  transparent liquid inside.  This may happen repeatedly).\nThis disease mostly is caused by bruising or under pressure for an extended period of time.\n\nTreatment: fill in small amount of triamcinolone acetonide after draining the sticky liquid inside.  But it may relapse.  The best way to handle it is to remove it surgically.",
+        "content_es": "Impresi\u00f3n: quiste mixoide.\nEn el costado, cerca del extremo del pulgar, hay un quiste semiesf\u00e9rico de 1 cm X 1 cm.  El color es normal, la superficie es lisa, brillante, blanda y da la sensaci\u00f3n de ser un quiste.\n(Despu\u00e9s de pincharlo, deber\u00eda ver l\u00edquido pegajoso pero transparente en el interior.  Esto puede ocurrir repetidamente).\nEsta enfermedad est\u00e1 causada principalmente por hematomas o aplicaci\u00f3n de presi\u00f3n durante un per\u00edodo prolongado de tiempo.\n\nTratamiento: rellenar con una peque\u00f1a cantidad de triamcinolona acet\u00f3nido despu\u00e9s de drenar el l\u00edquido pegajoso del interior.  Pero puede recaer.  La mejor forma de tratarlo es la extirpaci\u00f3n quir\u00fargica..\n",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"Psoriasis",
+    "prediction": "Based on the described symptoms and images, I believe the most probable diagnosis is Psoriasis. I recommend topical treatments and phototherapy as potential treatment options.",
+    "valid_responses": [{
+        "author_id": "U03188",
+        "content_zh": "\u94f6\u5c51\u75c5\uff0c\u94f6\u5c51\u80f6\u56ca\uff0c\u7518\u8349\u9178\u82f7\uff0c\u8f6c\u79fb\u56e0\u5b50\u53e3\u670d\uff0c\u83ab\u7c73\u677e\uff0c\u4ed6\u514b\u83ab\u53f8\u5916\u7528",
+        "content_en": "Psoriasis.  Use orally Psoriasis capsules, glycyrrhizic acid glycosides, transfer factors.  Topically, use Momosone, tacrolimus.",
+        "content_es": "Psoriasis. Por v\u00eda oral, utilizar c\u00e1psulas para psoriasis, gluc\u00f3sidos de \u00e1cido glicirr\u00edcico, factores de transferencia. Por v\u00eda t\u00f3pica, utilizar mometasona, tacrolimus.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01334",
+        "content_zh": "\u94f6\u5c51\u75c5\u3002\u3002\u3002\u3002\u3002\u3002\u3002\u3002",
+        "content_en": "Psoriasis. .....",
+        "content_es": "Psoriasis...",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00303",
+        "content_zh": "\u5bfb\u5e38\u578b\u94f6\u5c51\u75c5\uff01\u4e2d\u836f\u6cbb\u7597\uff01",
+        "content_en": "Psoriasis Vulgaris.  Use chinese medicine for treatment.",
+        "content_es": "Psoriasis vulgaris.  Utilice medicina china para el tratamiento.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00024",
+        "content_zh": "\u770b\u7740\u50cf\u94f6\u5c51\u75c5",
+        "content_en": "Looks like Psoriasis.",
+        "content_es": "Parece psoriasis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01335",
+        "content_zh": "\u5e94\u8be5\u662f\u94f6\u5c51\u75c5",
+        "content_en": "Should be Psoriasis.",
+        "content_es": "Tiene que ser psoriasis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00652",
+        "content_zh": "\u725b\u76ae\u7663\u53c8\u540d\u94f6\u5c51\u75c5\uff0c\u5bfb\u5e38\u578b\uff0c\u5c5e\u4e00\u79cd\u591a\u57fa\u56e0\u9057\u4f20\u75c5\uff0c\u7ed9\u4e88\u5361\u6cca\u4e09\u9187\uff0c\u5364\u7c73\u677e\u5916\u7528\uff0c\u53e3\u670d\u514b\u94f6\u4e38\uff0c\u590d\u65b9\u82f7\u8349\u9178\u82f7\uff0c\u7981\u611f\u67d3(\u7ec6\u83cc\uff0c\u75c5\u6bd2\uff0c\u771f\u83cc)\u7981\u5916\u4f24(\u56db\u5341\u5ea6\u4ee5\u4e0b\u6c34\u6d17\u6fa1\uff0c)\u6709\u540c\u5f62\u53cd\u5e94\uff0c\u7981\u9152\uff0c\u7981\u98dfB\u4ed6\u53d7\u4f53\u963b\u6ede\u836f\uff0c\u975e\u753e\u4f53\u7c7b\u6297\u708e\u836f\uff0c",
+        "content_en": "Psoriasis Vulgaris.  Is a genetic disease with multiple genes.  Prescribing Cabotriol, halomethasone for topical use.  Orally take Ke Yin Wan (A Chinese herbal drug), compound oxalate glycoside.  Prevent from infections (bacteria, virus, fungi).  Prevent from injury (bath with water below 40 degree C).  Getting Koebner Phenomenon.  Avoid consumption of alcohol.  Avoid drug of beta receptors blockers and NSAID drugs. ",
+        "content_es": "La psoriasis tambi\u00e9n se conoce como psoriasis vulgaris, es una enfermedad gen\u00e9tica polig\u00e9nica.  Prescribir Cabotriol, halometasona para uso t\u00f3pico.  Por v\u00eda oral tomar Ke Yin Wan (un medicamento chino a base de hierbas), compuestos gluc\u00f3sidos de \u00e1cido ox\u00e1lico.  Prevenir infecciones (bacterias, virus, hongos).  Prevenir lesiones (ba\u00f1os con agua por debajo de 40 grados C).  Atentos al fen\u00f3meno de Koebner.  Evitar el consumo de alcohol,  bloqueadores de los receptores beta y AINE.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"chronic Eczema",
+    "prediction": "Based on the observed symptoms, I believe the most probable disease is Chronic hand eczema. I recommend moisturizing regularly and using topical corticosteroids to manage symptoms.",
+    "valid_responses": [{
+        "author_id": "U00091",
+        "content_zh": "\u8003\u8651\u6162\u6027\u6e7f\u75b9.",
+        "content_en": "Consider chronic Eczema.",
+        "content_es": "Considere el eczema cr\u00f3nico.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00065",
+        "content_zh": "\u4ece\u8fd9\u4e24\u5f20\u56fe\u7247\u770b\u8c61\u6162\u6027\u6e7f\u75b9\u3002",
+        "content_en": "From these two pictures, it looks like it is chronic Eczema.",
+        "content_es": "A partir de estas dos im\u00e1genes, parece que se trata de eccema cr\u00f3nico.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00051",
+        "content_zh": "\u770b\u8c61\u6162\u6027\u6e7f\u75b9\u3002",
+        "content_en": "Think that it is chronic Eczema.",
+        "content_es": "Creo que es un eczema cr\u00f3nico.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"Urticaria",
+    "prediction": "Based on the provided images and descriptions, the most probable diagnosis is Papular Urticaria. Treatment will involve topical steroids and antihistamines to alleviate itching.",
+    "valid_responses": [{
+        "author_id": "U00091",
+        "content_zh": "\u4e18\u75b9\u6027\u8368\u9ebb\u75b9",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01555",
+        "content_zh": "\u4e18\u75b9\u6027\u8368\u9ebb\u75b9",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00000",
+        "content_zh": "\u662f\u4e2a\u4e18\u75b9\u6027\u8368\u9ebb\u75b9\u3002",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00183",
+        "content_zh": "\u662f\u4e18\u75b9\u6027\u8368\u9ebb\u75b9",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00725",
+        "content_zh": "\u4e18\u75b9\u6027\u8368\u9ebb\u75b9",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00074",
+        "content_zh": "\u4e18\u75b9\u6027\u8368\u9ebb\u75b9\u3002",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00171",
+        "content_zh": "\u4e18\u75b9\u6027\u8368\u9ebb\u75b9",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00773",
+        "content_zh": "\u4e18\u75b9\u6027\u8368\u9ebb\u75b9",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U08377",
+        "content_zh": "\u4e18\u75b9\u6027\u8368\u9ebb\u75b9",
+        "content_en": "Urticaria",
+        "content_es": "Urticaria",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"porokeratosis",
+    "prediction": "Based on the lesion's appearance, my diagnosis is Seborrheic Keratosis. We can manage this with cryosurgery or curettage, depending on the lesion's location and size.",
+    "valid_responses": [{
+        "author_id": "U02573",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U02512",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00177",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U03072",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00000",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7\u3002\u8bca\u65ad\u6b63\u786e\u3002",
+        "content_en": "porokeratosis.  The diagnosis should be correct.",
+        "content_es": "poroqueratosis, el diagn\u00f3stico deber\u00eda ser correcto",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00182",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316 \u4e0e\u9057\u4f20\u6ca1\u5173\u7cfb",
+        "content_en": "porokeratosis.  It is not a hereditary disease.",
+        "content_es": "poroqueratosis, no es hereditaria",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00183",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316 \u4e0e\u9057\u4f20\u6709\u5173\u7cfb\u7684",
+        "content_en": "porokeratosis.  It could be hereditary.",
+        "content_es": "poroqueratosis, podr\u00eda ser hereditaria",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U07178",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00073",
+        "content_zh": "\u5178\u578b\u7684\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "a typical disease of porokeratosis",
+        "content_es": "poroqueratosis t\u00edpica",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00074",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00201",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00091",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00171",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00280",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01770",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U09049",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01780",
+        "content_zh": "\u6c57\u5b54\u89d2\u5316\u75c7",
+        "content_en": "porokeratosis",
+        "content_es": "poroqueratosis",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"tinea unguium",
+    "prediction": "Based on the visual inspection of the images, I believe the most probable condition is Onychomycosis. We should confirm this with further diagnostic tests like microscopy or culture.",
+    "valid_responses": [{
+        "author_id": "U00000",
+        "content_zh": "\u5efa\u8bae\u5148\u67e5\u771f\u83cc\uff0c\u5728\u6cbb\u7597\u3002",
+        "content_en": "Suggest to run a test on fungal infection, and then treatment.",
+        "content_es": "Sugiero hacer una prueba de infecci\u00f3n por hongos, y tratar luego.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01898",
+        "content_zh": "\u521d\u6b65\u8bca\u65ad\u00a0 \u00a0 \u7070\u6307\u7532\u00a0\u00a0\u67e5\u4e0b\u771f\u83cc\u611f\u67d3\uff01",
+        "content_en": "Initial diagnosis: tinea unguium.  Run a test on fungal infection.",
+        "content_es": "Diagn\u00f3stico inicial:onicomicosis.  Realice una prueba de infecci\u00f3n f\u00fangica.\n",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00080",
+        "content_zh": "\u5efa\u8bae\u67e5\u771f\u83cc\uff0c\u6297\u771f\u83cc\u6cbb\u7597",
+        "content_en": "Suggest to test on fungal infection.  Treatment with anitfungal medication.",
+        "content_es": "Sugiero prueba de infecci\u00f3n por hongos.  Tratamiento con antif\u00fangicos.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"Eczema",
+    "prediction": "Based on the presented symptoms, I diagnose the condition as Hand Dermatitis. A treatment plan might include the use of topical steroids and avoidance of irritants.",
+    "valid_responses": [{
+        "author_id": "U07950",
+        "content_zh": "\u6e7f\u75b9",
+        "content_en": "Eczema.",
+        "content_es": "Eccema",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00753",
+        "content_zh": "\u76ae\u708e\u6e7f\u75b9\uff0c\u5efa\u8bae\u6392\u9664\u771f\u83cc",
+        "content_en": "Dermatitis eczema.  Suggest test on fungal infection.",
+        "content_es": "Dermatitis.  Sugiero prueba de infecci\u00f3n por hongos.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01176",
+        "content_zh": "\u6e7f\u75b9~\n\u7981\u6b62\u505a\u5bb6\u52a1\u6d3b~\n\u5c11\u63a5\u89e6\u78b1\u6027\u7269\u4f53~\u80a5\u7682\uff0c\u6d17\u8863\u7c89\u7b49",
+        "content_en": "Eczema.\nAvoid household works.\nAvoid contact with alkalines such as soap and detergents.",
+        "content_es": "Eczema.\nEvitar trabajos dom\u00e9sticos.\nEvitar el contacto con alcalinos como jabones y detergentes.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00183",
+        "content_zh": "\u624b\u90e8\u6e7f\u75b9\u3002",
+        "content_en": "Eczema at the hands.  ",
+        "content_es": "Eccema de las manos.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U10136",
+        "content_zh": "\u4e4f\u8102\u6027\u6e7f\u75b9\uff0c\u53ef\u80fd\u4e0e\u957f\u671f\u4e0e\u6d17\u6d01\u5242\u63a5\u89e6\u6709\u5173",
+        "content_en": "Asteatotic eczema.  Could be due to contact with detergents for a long term.",
+        "content_es": "Eczema asteat\u00f3sico.  Puede deberse al contacto prolongado con detergentes.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01040",
+        "content_zh": "\u76ae\u708e\u6e7f\u75b9",
+        "content_en": "Dermatitis Eczema",
+        "content_es": "Eccema",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"urticaria",
+    "prediction": "The most probable diagnosis is Physical Urticaria. Treatment includes avoiding triggers and antihistamines for relief from symptoms.",
+    "valid_responses": []
+}, {
+    "ground_truth": "\"Cracked skin",
+    "prediction": "Based on the visual description, I diagnose this as Hand Eczema. For treatment, I recommend prescription topical corticosteroids and regular use of moisturizers.",
+    "valid_responses": [{
+        "author_id": "U05475",
+        "content_zh": "\u76b2\u88c2\u5427\n\u5e74\u7eaa\u5927\u4e86\uff0c\u76ae\u8102\u5206\u6ccc\u51cf\u5c11\uff0c\u6c34\u5206\u4e22\u5931\uff0c\u79cb\u51ac\u5b63\u6c14\u5019\u5e72\u71e5\u52a0\u91cd\uff0c\n\u5916\u7528\u6da6\u80a4\u5242\uff0c\u5c11\u63a5\u89e6\u5316\u5b66\u6d17\u6da4\u5242",
+        "content_en": "Cracked skin.\nThe excretion of sebum is getting less when growing old.  Water is losing, added to this is the drynes in autumn and winter.  Use externally moisturizer.   Avoid contact with chemical detergents.",
+        "content_es": "Piel agrietada.\nLa excreci\u00f3n de sebo disminuye con la edad. Se va perdiendo agua, a esto se suma la sequ\u00eda en oto\u00f1o e invierno. Utilice crema hidratante externa. Evite el contacto con detergentes qu\u00edmicos.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00090",
+        "content_zh": "\u76b2\u88c2",
+        "content_en": "Cracked skin.",
+        "content_es": "Piel agrietada.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01432",
+        "content_zh": "\u76b2\u88c2",
+        "content_en": "Cracked skin.",
+        "content_es": "Piel agrietada.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00762",
+        "content_zh": "\u76b2\u88c2",
+        "content_en": "Cracked skin.",
+        "content_es": "Piel agrietada.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"alcoholic erythema",
+    "prediction": "Based on the symptoms observed, I believe the patient is experiencing Alcohol-Induced Flushing. The treatment plan involves avoiding alcohol to prevent further symptom manifestation.",
+    "valid_responses": [{
+        "author_id": "U00780",
+        "content_zh": "\u53ef\u80fd\u662f\u9152\u7ea2\u6591",
+        "content_en": "Could be alcoholic erythema.",
+        "content_es": "Podr\u00eda ser un eritema alcoh\u00f3lico.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00120",
+        "content_zh": "\u9152\u6027\u7ea2\u6591",
+        "content_en": "alcoholic erythema",
+        "content_es": "Eritema alcoh\u00f3lico",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U03566",
+        "content_zh": "\u9664\u4e86\u9888\u90e8\uff0c\u6211\u770b\u4ed6\u80f8\u90e8\u4e5f\u6709\u7ea2\u6591\u554a\uff0c\u82e5\u662f\u5168\u8eab\u6027\u7684\uff0c\u8bca\u65ad\u9152\u6027\u7ea2\u6591\u5427",
+        "content_en": "In addition to the neck, I notice erythema also appears on the chest.  If that happens all over the body, we can diagnose as alcoholic erythema.",
+        "content_es": "Adem\u00e1s del cuello, observo que tambi\u00e9n aparece eritema en el pecho.  Si eso ocurre en todo el cuerpo, podemos diagnosticarlo como eritema alcoh\u00f3lico.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00759",
+        "content_zh": "\u9152\u6027\u7ea2\u6591",
+        "content_en": "alcoholic erythema.",
+        "content_es": "Eritema alcoh\u00f3lico",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"mucocele",
+    "prediction": "Based on the visual description of the lesion, I diagnose it as a Mucocele. The treatment would involve surgical removal or laser therapy.",
+    "valid_responses": [{
+        "author_id": "U01375",
+        "content_zh": "\u5e94\u8be5\u662f\u7c98\u6db2\u56ca\u80bf",
+        "content_en": "Should be mucocele.",
+        "content_es": "Deber\u00eda ser mucocele.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00088",
+        "content_zh": "\u7c98\u6db2\u817a\u56ca\u80bf",
+        "content_en": "mucocele",
+        "content_es": "mucocele",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00104",
+        "content_zh": "\u7c98\u6db2\u817a\u56ca\u80bf\n\u5efa\u8bae\u56ca\u80bf\u5207\u9664\u672f",
+        "content_en": "mucocele.  Suggest a cystectomy.",
+        "content_es": "mucocele. Sugiero una cistectom\u00eda.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00074",
+        "content_zh": "\u7c98\u6db2\u817a\u56ca\u80bf",
+        "content_en": "mucocele",
+        "content_es": "mucocele",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"eczema",
+    "prediction": "Based on the images and descriptions, the most probable diagnosis could be chronic eczema. A treatment plan could involve regular application of prescribed moisturizers and topical steroids.",
+    "valid_responses": [{
+        "author_id": "U00091",
+        "content_zh": "\u4e2a\u4eba\u611f\u89c9\u662f\u6e7f\u75b9\uff0c\u8fc7\u5ea6\u9a9a\u6293\u5f15\u8d77\u611f\u67d3\u3002",
+        "content_en": "I feel that it is infection on eczema after scratching a lot.",
+        "content_es": "Pienso que es eccema sobreinfectado tras rascar mucho.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00751",
+        "content_zh": "\u539f\u53d1\u75c5\u53ef\u80fd\u662f\u795e\u7ecf\u6027\u76ae\u708e\u6216\u6e7f\u75b9\uff0c\u5176\u6b21\u8003\u8651\u6709\u63a5\u89e6\u6027\u76ae\u708e\u5e76\u4e14\u53ef\u80fd\u5e76\u53d1\u771f\u83cc\u611f\u67d3\u3002",
+        "content_en": "The original problem could be dermatitis or eczema.  Next to think of contact dermatitis along with fungal infection.",
+        "content_es": "El problema original puede ser una dermatitis o un eczema.  A continuaci\u00f3n, pensar en la dermatitis de contacto junto con la infecci\u00f3n f\u00fangica.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00498",
+        "content_zh": "\u4e2a\u4eba\u611f\u89c9\u662f\u6e7f\u75b9",
+        "content_en": "I think this is eczema.",
+        "content_es": "Pienso que es eccema.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"summer dermatitis",
+    "prediction": "Based on the visual inspection, I believe the most probable condition is Dermatitis. Treatment would involve avoiding irritants and using prescribed creams to control inflammation.",
+    "valid_responses": [{
+        "author_id": "U00838",
+        "content_zh": "\u8003\u8651\u590f\u5b63\u76ae\u708e",
+        "content_en": "Consider summer dermatitis.",
+        "content_es": "Considere la dermatitis estival.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00045",
+        "content_zh": "\u590f\u5b63\u76ae\u708e\uff0c\u63a5\u89e6\u6027\u76ae\u708e",
+        "content_en": "summer dermatitis, contact dermatitis.",
+        "content_es": "dermatitis estival, dermatitis de contacto",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"Onychophagia",
+    "prediction": "Based on the visual examination, I diagnose the patient with Traumatic onychodystrophy. The treatment plan involves minimizing trauma to the nails and providing symptomatic relief.",
+    "valid_responses": [{
+        "author_id": "U05045",
+        "content_zh": "\u54ac\u7532\u7656",
+        "content_en": "Onychophagia",
+        "content_es": "Onicofagia",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00000",
+        "content_zh": "\u662f\u54ac\u7532\u7656\u3002\u53ef\u4ee5\u7528\u6697\u793a\u7597\u6cd5\u6cbb\u7597\u3002\u540c\u65f6\u67e5\u4e0b\u5fae\u91cf\u5143\u7d20\u3002",
+        "content_en": "It is Onychophagia.  Can be treated with suggestion therapy.  May also apply topcially small amount of bitter tasting stuff on the nail.",
+        "content_es": "Es onicofagia.  Se puede tratar con terapia de sugesti\u00f3n.  Tambi\u00e9n se puede aplicar por v\u00eda t\u00f3pica una peque\u00f1a cantidad de sustancia de sabor amargo en la u\u00f1a.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00088",
+        "content_zh": "\u54ac\u7532\u7656",
+        "content_en": "Onychophagia",
+        "content_es": "Onicofagia",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"eczema",
+    "prediction": "Based on the visual inspection, I believe the most probable condition is Contact Dermatitis. We'll start a topical steroid treatment and monitor your progress closely.",
+    "valid_responses": [{
+        "author_id": "U02211",
+        "content_zh": "\u8d44\u6599\u6709\u9650\u9996\u5148\u8003\u8651\u6e7f\u75b9\u3002",
+        "content_en": "With limited information, think of eczema first.",
+        "content_es": "Con informaci\u00f3n limitada, piensa primero en eczema.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U04471",
+        "content_zh": "\u521d\u6b65\u65ad\u5b9a\u662f\u6e7f\u75b9\u554a\u3002",
+        "content_en": "Preliminary diagnosis: eczema.",
+        "content_es": "Diagn\u00f3stico preliminar: eczema.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"Parapsoriasis",
+    "prediction": "Based on the described visual characteristics, it seems to be a case of Large plaque parapsoriasis. Regular treatments should include topical steroids or light therapy.",
+    "valid_responses": [{
+        "author_id": "U00183",
+        "content_zh": "j\u5efa\u8bae\u75c5\u7406\u68c0\u67e5\uff0c\u8003\u8651\u526f\u94f6\u5c51\u75c5\u3002",
+        "content_en": "Suggest to run a pathological examination.  Consider it is Parapsoriasis",
+        "content_es": "Sugiero biopsia.  Considere parapsoriasis.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00120",
+        "content_zh": "\u526f\u94f6\u5c51\u75c5\u00a0\u00a0\u8bf7\u505a\u75c5\u7406",
+        "content_en": "Parapsoriasis. Suggest to run a pathological examination. ",
+        "content_es": "Parapsoriasis. Sugiero biopsia.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U06123",
+        "content_zh": "\u526f\u94f6\u5c51\u75c5\u00a0\u00a0\u8bf7\u505a\u75c5\u7406",
+        "content_en": "Parapsoriasis. Suggest to run a pathological examination.",
+        "content_es": "Parapsoriasis. Sugiero biopsia.",
+        "completeness": 0.5,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"Typical seborrheic dermatitis",
+    "prediction": "Based on the visual inspection, it appears to be a case of Infantile Seborrheic Dermatitis. We can start treatment with gentle cleansing and application of baby-safe topical creams.",
+    "valid_responses": [{
+        "author_id": "U00182",
+        "content_zh": "\u5178\u578b\u7684\u8102\u6ea2\u6027\u76ae\u708e\n\u5916\u7528\u7ef4\u751f\u7d20B6\u8f6f\u818f\u548c\u5c24\u5353\u5c14",
+        "content_en": "Typical seborrheic dermatitis.\nUse Vitamin B6 ointment and Hydrocortisone Butyrate Cream externally.",
+        "content_es": "Dermatitis seborreica t\u00edpica.\nUtilizar pomada de vitamina B6 y de butirato de hidrocortisona.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00183",
+        "content_zh": "\u76ae\u708e\uff0c\u53ef\u4ee5\u4e0d\u5904\u7406\u3002",
+        "content_en": "Dermatitis.  No treatment needed.",
+        "content_es": "Dermatitis.  No necesita tratamiento.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00000",
+        "content_zh": "\u513f\u7ae5\u5e38\u89c1\u5c0f\u75c5\u3002\u8bca\u65ad\u8102\u6ea2\u6027\u76ae\u708e\u6216\u662f\u5355\u7eaf\u7ce0\u75b9\u3002\u90fd\u53ef\u4ee5\u3002\u5916\u7528\u4e0d\u542b\u6fc0\u7d20\u7684\u4e3a\u597d\u3002\u5982\u809d\u7d20\u7eb3\u4e73\u818f\u3002\u3002\u7b49\u3002",
+        "content_en": "Common disease seen in children.  Diagnosis: seborrheic dermatitis or pityriasis simples.  Either one is possible. Better not to  use hormone based drug externally, such as heparin sodium cream.",
+        "content_es": "Enfermedad frecuente en ni\u00f1os. Diagn\u00f3stico: dermatitis seborreica o pitiriasis simple. Cualquiera de las dos es posible. Mejor no utilizar externamente medicamentos de base hormonal. Utilizar, por ejemplo, crema de heparina s\u00f3dica.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }]
+}, {
+    "ground_truth": "\"onychomycosis",
+    "prediction": "Based on my observations, the patient likely has Onychomycosis. I recommend antifungal medication and regular, professional nail trimming.",
+    "valid_responses": [{
+        "author_id": "U00857",
+        "content_zh": "\u7532\u771f\u83cc\u75c5\uff1f",
+        "content_en": "onychomycosis?",
+        "content_es": "\u00bfOnicomicosis?",
+        "completeness": 0.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U01175",
+        "content_zh": "\u4e5f\u8003\u8651\u7532\u771f\u83cc\u75c5\uff0c\u53ef\u662f\u4e0d\u5178\u578b\u7684\u7532\u771f\u83cc\u75c5\u53e3\u670d\u836f\u4e4b\u524d\u6700\u597d\u67e5\u4e0b\u771f\u83cc\u786e\u8bca\u4e0b\u518d\u7528\u836f\uff0c\u8fd9\u6837\u4f1a\u6709\u7684\u653e\u77e2\uff0c\u7279\u6bd4\u5948\u915a\u8fd8\u662f\u6bcf\u5929\u8fde\u7eed250mg\u4e3a\u597d\uff0c\u53e6\u5916\u4e24\u79cd\u836f\u6ca1\u4ec0\u4e48\u7528\u5427",
+        "content_en": "Should consider onychomycosis, but a non-traditional one.  Better run a test on fungal infection before taking medication orally.  Ensure you are right on the target.  Use of Terbinamol should be consistently 250 mg daily.  The other two drugs are not really helpful. ",
+        "content_es": "Deber\u00eda considerar la onicomicosis, pero una no tradicional.  Mejor hacer una prueba de infecci\u00f3n f\u00fangica antes de tomar medicaci\u00f3n por v\u00eda oral.  Aseg\u00farese de dar en el blanco.  El uso de terbinamol debe ser sistem\u00e1ticamente de 250 mg diarios.  Los otros dos medicamentos no son realmente \u00fatiles.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U02965",
+        "content_zh": "\u67e5\u771f\u83cc\uff0c\u5982\u679c\u9634\u6027\u8003\u8651\u7532\u5265\u79bb",
+        "content_en": "Run a test on fungal infection.  If the result is negative, consider onycholysis.",
+        "content_es": "Mira si existe infecci\u00f3n f\u00fangica.  Si el resultado es negativo, considera la onicolisis.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U00312",
+        "content_zh": "\u5e94\u8be5\u662f\u7532\u771f\u83cc\u75c5\u3002\u3002\u3002\u67e5\u4e0b\u771f\u83cc",
+        "content_en": "Should be onychomycosis.  Run a test on fungal infection.",
+        "content_es": "Deber\u00eda ser onicomicosis.  Haz una prueba de infecci\u00f3n f\u00fangica.",
+        "completeness": 1.0,
+        "contains_freq_ans": 1.0
+    }, {
+        "author_id": "U02679",
+        "content_zh": "\u7532\u771f\u83cc\u75c5",
+        "content_en": "Onychomycosis",
+        "content_es": "Onicomicosis",
+        "completeness": 0.0,
+        "contains_freq_ans": 1.0
+    }]
+}
