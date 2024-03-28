@@ -87,11 +87,11 @@ Employing chain-of-thought reasoning strategies, we prompted GPT-4 to articulate
 Distinguishing Image Descriptors:
 
 For each candidate diagnosis, we further requested GPT-4V to generate detailed image descriptors that could serve as distinguishing features for the diseases in question. This step aimed to refine our understanding of each potential condition by identifying visual markers critical for differential diagnosis.
-Comparison and Candidate Selection:
 
+**Comparison and Candidate Selection:**
 With the generated disease descriptions in hand, we then conducted a comparative analysis against the actual images from our dataset. This process involved matching the GPT-4V-generated image descriptors with visible features in the clinical images to identify the top two most plausible candidates for each case.
-Final Diagnosis Prediction:
 
+**Final Diagnosis Prediction:**
 As the culmination of our methodology, we provided GPT-4 with the contextual findings from the previous step, prompting it to select the most likely disease from the top candidates. This final prediction represented GPT-4's integrated analysis of both the visual and textual data, alongside the reasoning developed throughout the process.
 
 ### Conclusion
