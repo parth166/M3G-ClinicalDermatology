@@ -84,8 +84,8 @@ For each case within our dataset, we engaged GPT-4-vision, utilizing custom prom
 
 **Differential Diagnosis Generation:**
 Employing chain-of-thought reasoning strategies, we prompted GPT-4 to articulate multiple potential diagnoses for each case. This approach allowed for a broad consideration of possible conditions, acknowledging the complexity and variability inherent in dermatological diagnosis.
-Distinguishing Image Descriptors:
 
+**Distinguishing Image Descriptors:**
 For each candidate diagnosis, we further requested GPT-4V to generate detailed image descriptors that could serve as distinguishing features for the diseases in question. This step aimed to refine our understanding of each potential condition by identifying visual markers critical for differential diagnosis.
 
 **Comparison and Candidate Selection:**
