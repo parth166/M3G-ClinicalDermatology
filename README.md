@@ -98,7 +98,8 @@ As the culmination of our methodology, we provided GPT-4 with the contextual fin
 ## How To use the code
 (a) pip install requirements.txt
 
-(b) Create a folder on your path and add the input data in json format. Follow the instruction on the dataset above. Also include image files.
+(b) Create a folder on your path and add the input data in json format. The data should be formatted as shown in the Data Description. 
+Refer to competition's sample data available here: https://www.codabench.org/competitions/1632/#/pages-tab
 
 (c) Specify file names in main.py
 
