@@ -94,5 +94,16 @@ With the generated disease descriptions in hand, we then conducted a comparative
 **Final Diagnosis Prediction:**
 As the culmination of our methodology, we provided GPT-4 with the contextual findings from the previous step, prompting it to select the most likely disease from the top candidates. This final prediction represented GPT-4's integrated analysis of both the visual and textual data, alongside the reasoning developed throughout the process.
 
+
+## How To use the code
+(a) pip install requirements.txt
+
+(b) Create a folder on your path and add the input data in json format. Follow the instruction on the dataset above. Also include image files.
+
+(c) Specify file names in main.py
+
+(d) run: python main.py
+
+
 ### Conclusion
 This methodology represents a novel application of AI in the field of dermatology, harnessing the synergy between advanced language models and clinical imagery. Through iterative reasoning and detailed visual-textual analysis, our approach seeks to enhance diagnostic accuracy and efficiency in dermatological practice.
