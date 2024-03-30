@@ -33,9 +33,8 @@ def retrieve(directory, input_file, images):
 
     with open(os.path.join(directory, "retrieved.json"), "a") as f1:
       f1.write(json.dumps(response.json()) + "\n")
-    break
 
-# --------------------GET CANDIDATE DISEASES------------------
+# -------------------- GET CANDIDATE DISEASES ------------------
 
 def get_candidates(directory, file_name="retrieved.json"): 
   file = os.path.join(directory, file_name)
@@ -48,9 +47,8 @@ def get_candidates(directory, file_name="retrieved.json"):
 
     with open(os.path.join(directory, "candidates.json"), "a") as f1:
       f1.write(json.dumps(response.json()) + "\n")
-    break
 
-# --------------------------------------------------------
+# ------------------ RANKER MODULE --------------------------
 def re_ranker(directory, input_file, images):
   data = json.load(open(os.path.join(directory, input_file)))
   candidates = [json.loads(line) for line in open(os.path.join(directory, 'candidates.json')).readlines()]
@@ -64,8 +62,8 @@ def re_ranker(directory, input_file, images):
 
     with open(os.path.join(directory, "top_2_candidates.json"), "a") as f1:
       f1.write(json.dumps(response.json()) + "\n")
-    break
-# --------------------------------------------------------
+
+# -------------- GNERATE RESPONSES --------------------------
 
 def generate_response(directory, input_file):
   data = [json.loads(line) for line in open(os.path.join(directory, 'top_2_candidates.json')).readlines()]
@@ -78,9 +76,8 @@ def generate_response(directory, input_file):
 
     with open(os.path.join(directory, "final_preds.json"), "a") as f1:
       f1.write(json.dumps(response.json()) + "\n")
-    break
 
-# ---------------------------------------------------------
+# ------------------ FINAL RESPONSE FORMATTER----------------
 
 def create_final_response(directory, input_file):
   data = [json.loads(line) for line in open(os.path.join(directory, 'final_preds.json')).readlines()]
@@ -95,12 +92,11 @@ def create_final_response(directory, input_file):
       "responses": [{"content_en": final_res, "content_zh": "", "content_es": ""}]
     }
     arr.append(response)
-    break
 
   with open(os.path.join(directory, "prediction.json"), "a") as f1:
     f1.write(json.dumps(arr) + "\n")
 
-# ---------------------------------------------------------
+# ----------------- MAIN -----------------------
 
 def main():
   """
@@ -115,27 +111,27 @@ def main():
             .
 
   """
-  directory_name = "./final_test"
-  input_file_name = "input.json"
-  input_images_dir = "images_test"
+  directory_name = "./final_test" # replace the directory name here that contains input file (json) and images. Also, make sure, this directory is on your current path.
+  input_file_name = "input.json" # the input file name in your directory
+  input_images_dir = "images_test" # the images folder in your directory
 
   assert os.path.exists(os.path.join(directory_name, input_file_name)), "An exact path cannot be found to the give file name, check directory structure"
   assert os.path.exists(os.path.join(directory_name, input_images_dir)), "An exact path cannot be found to the input images, check directory structure"
   
   # # step 1
-  retrieve(directory_name, input_file_name, input_images_dir) # this methods retrieves the first set of predictions from gpt4v
+  retrieve(directory_name, input_file_name, input_images_dir) # this is the retriever module
 
   # # step 2
   get_candidates(directory_name) # this methods create a list of possible candidates from step 1
 
   # step 3
-  re_ranker(directory_name, input_file_name, input_images_dir)
+  re_ranker(directory_name, input_file_name, input_images_dir) # this is the Ranker module
 
   # step 4 
-  generate_response(directory_name, input_file_name)
+  generate_response(directory_name, input_file_name) # this is the geration module
 
   # step 5
-  create_final_response(directory_name, input_file_name)
+  create_final_response(directory_name, input_file_name) # final output in a clean format as expected by ClinicalNLP workshop M3G
 
 if __name__ == '__main__':
   main()
