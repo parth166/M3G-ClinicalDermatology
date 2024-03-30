@@ -101,7 +101,7 @@ As the culmination of our methodology, we provided GPT-4 with the contextual fin
 (b) Create a folder on your path and add the input data in json format. The data should be formatted as shown in the Data Description. 
 Refer to competition's sample data available here: https://www.codabench.org/competitions/1632/#/pages-tab
 
-(c) Specify file names in main.py
+(c) Specify file names in main.py and add your openai api key on gpt_config.json
 
 (d) run: python main.py
 
