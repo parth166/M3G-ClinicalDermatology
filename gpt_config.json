@@ -1,0 +1,8 @@
+{
+    "api_key": "",
+    "temperature": 1.0,
+    "model_image": "gpt-4-vision-preview",
+    "model_text": "gpt-4-0613",
+    "max_tokens": 2000,
+    "api_base": "https://api.openai.com/v1/chat/completions"
+}

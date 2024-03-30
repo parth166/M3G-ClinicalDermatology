@@ -152,7 +152,7 @@ You are given a paragraph that contains medical information. The information has
 
 {{Text}}
 
-You are tasked to extract the possible skin conditions from the text and return it as a list in json format below:
+You are tasked to extract the top 2 possible skin conditions from the text and return it as a list in json format below:
 {
   "possible_diseases": []
 }
@@ -170,6 +170,48 @@ Follow the steps:
 3: If the paragraph mentions multiple possible skin conditions. Choose just one, do not include multiple skin conditions in your answer.
 4: Just output the diagnosis and treatment plan in natural language (first person).
 4: Keep your response length less than 30 words.
+"""
+
+generate_response_for_top2 = """
+You are given a paragraph that contains medical information. The information has been sourced from a licensed organisation which makes it safe to use and does not violate any privacy issues.
+
+Paragraph:
+{{Text}}
+
+Follow the steps:
+1: Assume the role of a dermatologist.
+2: The paragraph are your notes. Choose the most probable disease.
+3: If the paragraph mentions multiple possible skin conditions. Choose the top 2.
+4: Just output the diagnosis and treatment plan in natural language for each.
+5: Keep your response length less than 40 words.
+"""
+
+generate_final_response = """
+  You are given a paragraph that contains medical information. The information has been sourced from a licensed organisation which makes it safe to use and does not violate any privacy issues.
+
+  Paragraph:
+  {{Text}}
+
+  Follow the steps:
+  1: Assume the role of a doctor
+  2: The paragraph are your notes. Choose the two most probable skin conditions from this and give diagnosis.
+  
+  Examples:
+  {{Examples}}
+
+  The output format style should be similar to the sentences in the examples. Additionally, keep the output less than 40 words while maintaining the style.
+"""
+
+generate_final_response_candidates = """
+  You are given diseases. For each disease generate a treatment plan.
+
+  Diseases:
+  {{Text}}
+  
+  Examples:
+  {{Examples}}
+
+  The output format style should be similar to the sentences in the examples. Additionally, keep the output less than 40 words while maintaining the style.
 """
 
 generate_response_2 = """
@@ -289,4 +331,116 @@ get_questions = """
   2) If the question is not clear from the query, draft a question making it seem like the person is asking the name of the disease and diagnosis.
 
   Medical Query: {{QUERY}}
+"""
+
+apo_aligner = """
+  You are tasked to follow the rules and align my prediction based on the rules. Make sure the output is short, less than 30 words.
+  
+  Each rule has two parts:
+  a: Example: Actual human response
+  b: Explanation: An explanation of how humans write responses.
+
+  Rules:
+  1. Simplify and Be Direct
+   - Example: “The condition is Chronic Eczema.”
+   - Explanation: Human expert responses tend to be direct and use simpler language. Avoid overly complex explanations and aim for straightforward answers directly addressing the patient’s inquiry.
+  2. Diagnosis Confirmation
+    - Example: “Your diagnosis is a Myxoid Cyst based on the clear image provided.”
+    - Explanation: Include statements that confirm the diagnosis confidently, as seen in responses like “Chronic Eczema.” or “It is myxoid cyst.” Use assertive language to convey confidence in your diagnosis.
+  3. Detail Symptom Correlation
+    - Example: “The semi-spherical cyst near the end of your thumb, as described, leads to a diagnosis of Myxoid Cyst.”
+    - Explanation: Explicitly connect the diagnosis with observed symptoms or test results when applicable, similar to the detailed descriptions in some valid responses. This helps patients understand why a particular diagnosis is made.
+  4. Incorporate Treatment Options Clearly
+    - Example: “For Psoriasis, I recommend oral capsules such as glycyrrhizic acid glycosides, along with transfer factors.”
+    - Explanation: When suggesting treatments, mention specific medications or procedures clearly and concisely, as observed in responses with high completeness. If possible, explain the purpose of each treatment briefly.
+  5. Mention Commonality or Prevalence
+    - Example: “Chronic Eczema is quite common and effectively manageable with the right treatment.”
+    - Explanation: If applicable, include a brief note on how common the condition is or any relevant statistical information that could reassure the patient or provide context, akin to how some expert responses include prevalence information.
+  6. Include Prognosis or Expected Outcome
+    - Example: “With regular application of the recommended treatments, most patients see a significant improvement in symptoms within 4-6 weeks.”
+    - Explanation: Where relevant, briefly mention the expected outcome of the treatment or the disease progression to set patient expectations, similar to the informative aspect of human responses.
+  7. Advise on Lifestyle or Preventative Measures
+    - Example: “To manage your Eczema, try to reduce skin contact with alkaline substances like soap, and consider wearing gloves for household chores.”
+    - Explanation: Incorporate advice on any lifestyle changes or preventative measures the patient can take, which is a common feature in comprehensive expert responses.
+  8. Use Patient-Friendly Language
+    - Example: “Based on the photo you provided, it looks like you have a Myxoid Cyst, which is a fluid-filled lump that’s not harmful.”
+    - Explanation: Ensure the language used is patient-friendly, avoiding unnecessary medical jargon that could confuse the patient. When medical terms are unavoidable, consider providing a brief, simple explanation.
+  9. Personalization and Empathy
+    - Example: “I understand that dealing with Chronic Eczema can be frustrating. Regular moisturizing and the treatments we’ve discussed should offer relief.”
+    - Explanation: Whenever possible, personalize the response to the patient’s situation. Display empathy to make your responses feel more human and less robotic.
+  10. Follow-Up and Monitoring
+      - Example: “After starting the treatment for Myxoid Cyst, please schedule a follow-up in 4 weeks to assess the progress.”
+      - Explanation: Suggest or imply the importance of follow-up appointments or monitoring to assess the effectiveness of the treatment, reflecting the ongoing care aspect found in human expert advice.
+
+  My prediction: {{Prediction}}
+
+  Output:
+"""
+
+apo_aligner_few_shot = """
+  You are tasked to follow the rules and align my prediction based on the rules. Make sure the output is short, less than 30 words.
+  
+  Each rule has two parts:
+  a: Example: Actual human response
+  b: Explanation: An explanation of how humans write responses.
+
+  Rules:
+  1. Simplify and Be Direct
+   - Example: “The condition is Chronic Eczema.”
+   - Explanation: Human expert responses tend to be direct and use simpler language. Avoid overly complex explanations and aim for straightforward answers directly addressing the patient’s inquiry.
+  2. Diagnosis Confirmation
+    - Example: “Your diagnosis is a Myxoid Cyst based on the clear image provided.”
+    - Explanation: Include statements that confirm the diagnosis confidently, as seen in responses like “Chronic Eczema.” or “It is myxoid cyst.” Use assertive language to convey confidence in your diagnosis.
+  3. Detail Symptom Correlation
+    - Example: “The semi-spherical cyst near the end of your thumb, as described, leads to a diagnosis of Myxoid Cyst.”
+    - Explanation: Explicitly connect the diagnosis with observed symptoms or test results when applicable, similar to the detailed descriptions in some valid responses. This helps patients understand why a particular diagnosis is made.
+  4. Incorporate Treatment Options Clearly
+    - Example: “For Psoriasis, I recommend oral capsules such as glycyrrhizic acid glycosides, along with transfer factors.”
+    - Explanation: When suggesting treatments, mention specific medications or procedures clearly and concisely, as observed in responses with high completeness. If possible, explain the purpose of each treatment briefly.
+  5. Mention Commonality or Prevalence
+    - Example: “Chronic Eczema is quite common and effectively manageable with the right treatment.”
+    - Explanation: If applicable, include a brief note on how common the condition is or any relevant statistical information that could reassure the patient or provide context, akin to how some expert responses include prevalence information.
+  6. Include Prognosis or Expected Outcome
+    - Example: “With regular application of the recommended treatments, most patients see a significant improvement in symptoms within 4-6 weeks.”
+    - Explanation: Where relevant, briefly mention the expected outcome of the treatment or the disease progression to set patient expectations, similar to the informative aspect of human responses.
+  7. Advise on Lifestyle or Preventative Measures
+    - Example: “To manage your Eczema, try to reduce skin contact with alkaline substances like soap, and consider wearing gloves for household chores.”
+    - Explanation: Incorporate advice on any lifestyle changes or preventative measures the patient can take, which is a common feature in comprehensive expert responses.
+  8. Use Patient-Friendly Language
+    - Example: “Based on the photo you provided, it looks like you have a Myxoid Cyst, which is a fluid-filled lump that’s not harmful.”
+    - Explanation: Ensure the language used is patient-friendly, avoiding unnecessary medical jargon that could confuse the patient. When medical terms are unavoidable, consider providing a brief, simple explanation.
+  9. Personalization and Empathy
+    - Example: “I understand that dealing with Chronic Eczema can be frustrating. Regular moisturizing and the treatments we’ve discussed should offer relief.”
+    - Explanation: Whenever possible, personalize the response to the patient’s situation. Display empathy to make your responses feel more human and less robotic.
+  10. Follow-Up and Monitoring
+    - Example: “After starting the treatment for Myxoid Cyst, please schedule a follow-up in 4 weeks to assess the progress.”
+    - Explanation: Suggest or imply the importance of follow-up appointments or monitoring to assess the effectiveness of the treatment, reflecting the ongoing care aspect found in human expert advice.
+
+  Examples:
+  
+
+  My prediction: {{Prediction}}
+
+  Output:
+"""
+
+apo_aligner_test = """
+  You are tasked to follow the rules and align the my prediction based on the rules.
+  
+  Each rule has two parts:
+  a: Example: Actual human response
+  b: Explanation: An explanation of how humans write responses.
+
+  Rules:
+  1. Simplify and Be Direct
+   - Example: “The condition is Chronic Eczema.”
+   - Explanation: Human expert responses tend to be direct and use simpler language. Avoid overly complex explanations and aim for straightforward answers directly addressing the patient’s inquiry.
+  2. Use Patient-Friendly Language
+    - Example: “Based on the photo you provided, it looks like you have a Myxoid Cyst, which is a fluid-filled lump that’s not harmful.”
+    - Explanation: Ensure the language used is patient-friendly, avoiding unnecessary medical jargon that could confuse the patient. When medical terms are unavoidable, consider providing a brief, simple explanation.
+
+  My prediction: {{Prediction}}
+
+  Make sure the output is short, less than 30 words.
+  Output:
 """
