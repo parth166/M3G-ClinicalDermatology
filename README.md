@@ -95,7 +95,7 @@ With the generated disease descriptions in hand, we then conducted a comparative
 As the culmination of our methodology, we provided GPT-4 with the contextual findings from the previous step, prompting it to select the most likely disease from the top candidates. This final prediction represented GPT-4's integrated analysis of both the visual and textual data, alongside the reasoning developed throughout the process.
 
 
-## How To use the code
+## How to run the code
 (a) pip install requirements.txt
 
 (b) Create a folder on your path and add the input data in json format. The data should be formatted as shown in the Data Description. 
