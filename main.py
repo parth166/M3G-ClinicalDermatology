@@ -21,6 +21,16 @@ model_text = gpt_config['model_text']
 # ----------------------RETRIEVE---------------------
 
 def retrieve(directory, input_file, images):
+  """
+    Here the default prompt use is cot
+    you can uncomment the prompt command below and add a custom prompt in prompts.py
+    
+    example: prompt = your_prompt
+
+    Here prompt.replace("{{query}}") replaces the query in prompt.
+    This allows a customizable prompt at the test time.
+  """
+  prompt = cot
   input_file_path = os.path.join(directory, input_file)
   data = json.load(open(input_file_path))
 
@@ -28,7 +38,7 @@ def retrieve(directory, input_file, images):
     query = str(encounter["query_title_en"] + ". " + encounter["query_content_en"])
     i_paths = [os.path.join(directory, images, img) for img in encounter['image_ids']]
 
-    payload = create_payload(model_image, system_message=guidelines.replace("{{query}}", query), query="", image_paths=i_paths)
+    payload = create_payload(model_image, system_message=prompt.replace("{{query}}", query), query="", image_paths=i_paths)
     response = requests.post(api_base, headers=headers, json=payload)
 
     with open(os.path.join(directory, "retrieved.json"), "a") as f1:
@@ -37,12 +47,18 @@ def retrieve(directory, input_file, images):
 # -------------------- GET CANDIDATE DISEASES ------------------
 
 def get_candidates(directory, file_name="retrieved.json"): 
+  """
+    From the text generated in the retrieve function, we need to create a json of diseases for further processing.
+
+    Change the prompt below with your custom prompt. Make sure you include the {{Text}} as the output of the previous retrieval stage
+  """
+  prompt = create_diseases_top_k
   file = os.path.join(directory, file_name)
   data = [json.loads(line) for line in open(file).readlines()]
 
   for i, obj in enumerate(data):
     query = obj["choices"][0]['message']['content']
-    payload = create_payload(model_text, system_message=create_diseases.replace("{{Text}}", query), query="", image_paths=None)
+    payload = create_payload(model_text, system_message=prompt.replace("{{Text}}", query), query="", image_paths=None)
     response = requests.post(api_base, headers=headers, json=payload)
 
     with open(os.path.join(directory, "candidates.json"), "a") as f1:
@@ -50,14 +66,21 @@ def get_candidates(directory, file_name="retrieved.json"):
 
 # ------------------ RANKER MODULE --------------------------
 def re_ranker(directory, input_file, images):
+  """
+  Creates top 2 candidates from the list of possible candidates
+
+  Change prompt for your own custom implementation
+  """
+  prompt = medical_guidelines_ranker_top_2
   data = json.load(open(os.path.join(directory, input_file)))
   candidates = [json.loads(line) for line in open(os.path.join(directory, 'candidates.json')).readlines()]
 
   for i, encounter in enumerate(data):
+    query = str(encounter["query_title_en"] + ". " + encounter["query_content_en"])
     obj = json.loads(candidates[i]["choices"][0]['message']['content'])
     candidates = obj['possible_diseases']
     i_paths = [os.path.join(directory, images, img) for img in encounter['image_ids']]
-    payload = create_payload(model_image, system_message=image_description_similarity.replace("{{Candidates}}", str(candidates)), query="", image_paths=i_paths, max_tokens=1400)
+    payload = create_payload(model_image, system_message=prompt.replace("{{candidates}}", str(candidates)).replace("{{query}}", query), query="", image_paths=i_paths, max_tokens=1400)
     response = requests.post(api_base, headers=headers, json=payload)
 
     with open(os.path.join(directory, "top_2_candidates.json"), "a") as f1:
@@ -66,6 +89,9 @@ def re_ranker(directory, input_file, images):
 # -------------- GNERATE RESPONSES --------------------------
 
 def generate_response(directory, input_file):
+  """
+    This function generates the final response
+  """
   data = [json.loads(line) for line in open(os.path.join(directory, 'top_2_candidates.json')).readlines()]
   test_dataset = json.load(open(os.path.join(directory, input_file)))
 
